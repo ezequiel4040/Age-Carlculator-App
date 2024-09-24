@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.cal {
+    width: 400px;
+    /* height: 400px;  */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 24px;
+    border-end-end-radius: 88px;
+    padding: 1rem;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+   
+}
+
+
+.fecha-nacimiento  {
+    display: flex;
+    margin-top:24px ;
+   
+    
+
+
+    
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: hsl(0, 1%, 44%);
+}
+
+label,input {
+    display: block;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+input {
+    font-size: medium;
+    height: 42px;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid ;
+    font-weight: bold;
+    
+
+}
+
+
+p {
+    height: 80px;
+    text-align: center; 
+    line-height: 100px;
+    font-size: 60px ;
+    margin-bottom: -16px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.text {
+    margin-top: 32px;
+}
+
+input:focus {
+    border-color:hsl(259, 94%, 33%) ;
+    outline: none;
+  }
+
+  input:hover {
+    border-color: hsl(259, 100%, 65%);
+  }
+
+.boton {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    display: block;
+    width: 100%;
+}
+
+button {
+   border: none;
+   border-radius: 100%;
+   padding: 6px;
+
+}
+
+button  {
+    background-color: black;
+}
+
+button:hover {
+    background-color: hsl(259, 100%, 65%);
+}
+
+.text span {
+  color: hsl(259, 100%, 65%);
+}
+
+.attribution {
+  margin-top: 1rem;
+}
